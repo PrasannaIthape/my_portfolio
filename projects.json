@@ -1,0 +1,16 @@
+[
+    {
+      "id": 1,
+      "name": "Student Faculty App",
+      "description": "A platform for students and faculty to collaborate effectively.",
+      "technologies": ["React", "Java", "SQL"]
+    },
+    {
+      "id": 2,
+      "name": "Portfolio Website",
+      "description": "A personal website showcasing skills, projects, and experience.",
+      "technologies": ["React", "HTML", "CSS"]
+    }
+    
+  ]
+  
