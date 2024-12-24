@@ -7,7 +7,7 @@ function Project() {
 
   useEffect(() => {
     // Simulating AJAX request to fetch project data
-    fetch("/projects.json")
+    fetch("./projects.json")
       .then((response) => response.json())
       .then((data) => {
         setProjects(data); // Update state with the fetched projects
