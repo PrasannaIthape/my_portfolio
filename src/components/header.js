@@ -24,20 +24,28 @@ function Header() {
               <div className="d-grid gap-3 d-sm-flex justify-content-sm-center justify-content-xxl-start mb-3">
                 <a
                   className="btn btn-primary btn-lg px-5 py-3 me-sm-3 fs-6 fw-bolder"
-                  href="/resume"
-                  target="_blank"
+                  href="#resume"
                   rel="noopener noreferrer"
                 >
                   Resume
                 </a>
                 <a
                   className="btn btn-outline-dark btn-lg px-5 py-3 fs-6 fw-bolder"
-                  href="/resume"
-                  target="_blank"
+                  href="#projects"
                   rel="noopener noreferrer"
                 >
                   Project
                 </a>
+                {/* <a
+                  className="btn btn-outline-dark btn-lg px-5 py-3 fs-6 fw-bolder"
+                  onClick={() => {
+                    window.location.href = "/projects"; // Change this to your desired URL
+                  }}
+                  style={{ cursor: "pointer" }}
+                  rel="noopener noreferrer"
+                >
+                  Project
+                </a> */}
               </div>
             </div>
           </div>
@@ -45,8 +53,6 @@ function Header() {
             {/* Header profile picture*/}
             <div className="d-flex justify-content-center mt-5 mt-xxl-0">
               <div className="profile bg-gradient-primary-to-secondary">
-                {/* TIP: For best results, use a photo with a transparent background like the demo example below*/}
-                {/* Watch a tutorial on how to do this on YouTube (link)*/}
                 <img
                   className="profile-img"
                   src="assets/profile.png"

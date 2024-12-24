@@ -1,7 +1,8 @@
 import React from "react";
 
 
-function Navbar() {
+function Navbar({onProjectClick} ) {
+
   return (
     <nav className="navbar navbar-expand-lg navbar-light bg-white py-3">
       <div className="container px-5">
@@ -38,7 +39,9 @@ function Navbar() {
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#projects">
+              <a className="nav-link" href="#projects" 
+               onClick={onProjectClick}
+              >
                 Project
               </a>
             </li>
