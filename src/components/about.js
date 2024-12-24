@@ -2,7 +2,7 @@ import React from "react";
 
 function About() {
   return (
-    <section className="bg-light py-5">
+    <section className="bg-light py-5" id="about">
       <div className="container px-5">
         <div className="row gx-5 justify-content-center">
           <div className="col-xxl-8">
