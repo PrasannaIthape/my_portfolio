@@ -36,7 +36,7 @@ function Project() {
             <div className="col-lg-11 col-xl-9 col-xxl-8">
               {/* Project Card 1*/}
               {projects.map((project) => (
-                <div className="card overflow-hidden shadow rounded-4 border-0 mb-5">
+                <div key={project.id} className="card overflow-hidden shadow rounded-4 border-0 mb-5">
                   <div className="card-body p-0">
                     <div className="d-flex align-items-center">
                       <div className="p-5">
@@ -50,8 +50,8 @@ function Project() {
                       </div>
 
                       <img
-                        className="img-fluid"
-                        src="assets/project1.png"
+                        className="img-fluid project-img" 
+                        src={project.thumbnail}
                         alt="..."
                       />
                     </div>
