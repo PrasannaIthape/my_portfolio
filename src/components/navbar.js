@@ -27,11 +27,6 @@ function Navbar({ onProjectClick }) {
             </li>
 
             <li className="nav-item">
-              <a className="nav-link" href="#about">
-                About
-              </a>
-            </li>
-            <li className="nav-item">
               <a className="nav-link" href="#resume">
                 Resume
               </a>
@@ -39,6 +34,11 @@ function Navbar({ onProjectClick }) {
             <li className="nav-item">
               <a className="nav-link" href="#projects" onClick={onProjectClick}>
                 Project
+              </a>
+            </li>
+            <li className="nav-item">
+              <a className="nav-link" href="#about">
+                About
               </a>
             </li>
             <li className="nav-item">
